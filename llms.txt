@@ -1,0 +1,175 @@
+# Fantastic-admin
+
+> 杰出的管理系统框架
+
+开箱即用，提供舒适开发体验
+
+## Table of Contents
+
+### 指引
+
+- [文档说明](/guide/intro.md)
+
+### AI 技能 (Skills)
+
+- [AI 技能 (Skills)](/guide/skills.md)
+- [oc-framework-settings](/guide/skills/oc-framework-settings.md)
+- [oc-i18n-manager](/guide/skills/oc-i18n-manager.md)
+- [oc-slot-creator](/guide/skills/oc-slot-creator.md)
+- [oc-store-generator](/guide/skills/oc-store-generator.md)
+- [oc-theme-customizer](/guide/skills/oc-theme-customizer.md)
+
+### 入门
+
+- [准备工作](/guide/ready.md)
+- [开始](/guide/start.md)
+- [代码规范](/guide/coding-standard.md)
+- [环境变量](/guide/env.md)
+- [与服务端交互](/guide/axios.md)
+- [登录相关](/guide/login.md)
+- [窗口](/guide/window.md)
+- [全局状态管理](/guide/store.md)
+- [资源](/guide/resources.md)
+- [图标](/guide/icon.md)
+- [构建与预览](/guide/build.md)
+
+### 应用配置
+
+- [应用配置](/guide/settings.md)
+- [应用](/guide/settings/app.md)
+- [主题](/guide/settings/theme.md)
+- [导航菜单](/guide/settings/menu.md)
+- [工具栏](/guide/settings/toolbar.md)
+- [舞台](/guide/settings/stage.md)
+
+### 高级
+
+- [权限验证](/guide/auth.md)
+- [国际化&#x20;](/guide/i18n.md)
+- [常用 API](/guide/api.md)
+- [预留插槽](/guide/slots.md)
+- [快捷键](/guide/hotkeys.md)
+- [私有 Storage 数据&#x20;](/guide/storage.md)
+- [开发工具](/guide/devtools.md)
+- [自定义字体&#x20;](/guide/font.md)
+- [首屏 Loading](/guide/loading.md)
+- [搭配 UI 组件库](/guide/with-ui-libraries.md)
+- [Composition API](/guide/composition-api.md)
+- [JSX](/guide/jsx.md)
+
+### 其他
+
+- [框架更新](/guide/upgrade.md)
+
+### 组件
+
+- [介绍](/components.md)
+
+### 内建组件
+
+#### 基础版
+
+- [OcAlert 提示](/components/basic/OcAlert.md)
+- [OcAvatar 头像](/components/basic/OcAvatar.md)
+- [OcBadge 徽章](/components/basic/OcBadge.md)
+- [OcButton 按钮](/components/basic/OcButton.md)
+- [OcButtonGroup 按钮组](/components/basic/OcButtonGroup.md)
+- [OcCard 卡片](/components/basic/OcCard.md)
+- [OcCheckbox 复选框](/components/basic/OcCheckbox.md)
+- [OcCheckboxGroup 复选框组](/components/basic/OcCheckboxGroup.md)
+- [OcCollapsible 折叠面板](/components/basic/OcCollapsible.md)
+- [OcContextMenu 右键菜单](/components/basic/OcContextMenu.md)
+- [OcDescriptions 描述列表](/components/basic/OcDescriptions.md)
+- [OcDivider 分割线](/components/basic/OcDivider.md)
+- [OcDrawer 抽屉](/components/basic/OcDrawer.md)
+- [OcDropdown 下拉菜单](/components/basic/OcDropdown.md)
+- [OcFileUpload 文件上传](/components/basic/OcFileUpload.md)
+- [OcFixedBar 固定栏](/components/basic/OcFixedBar.md)
+- [OcHoverCard 悬浮卡片](/components/basic/OcHoverCard.md)
+- [OcIcon 图标](/components/basic/OcIcon.md)
+- [OcImagePreview 图片预览](/components/basic/OcImagePreview.md)
+- [OcImageUpload 图片上传](/components/basic/OcImageUpload.md)
+- [OcInput 输入框](/components/basic/OcInput.md)
+- [OcInputOTP 验证码输入](/components/basic/OcInputOtp.md)
+- [OcKbd 键盘按键](/components/basic/OcKbd.md)
+- [OcKbdGroup 键盘组合](/components/basic/OcKbdGroup.md)
+- [OcLabel 标签](/components/basic/OcLabel.md)
+- [OcModal 对话框](/components/basic/OcModal.md)
+- [OcNumberField 数字输入框](/components/basic/OcNumberField.md)
+- [OcPageHeader 页面头部](/components/basic/OcPageHeader.md)
+- [OcPageMain 页面主内容区](/components/basic/OcPageMain.md)
+- [OcPagination 分页](/components/basic/OcPagination.md)
+- [OcPasswordStrength 密码强度](/components/basic/OcPasswordStrength.md)
+- [OcPopover 弹出框](/components/basic/OcPopover.md)
+- [OcProgress 进度条](/components/basic/OcProgress.md)
+- [OcRadioGroup 单选组](/components/basic/OcRadioGroup.md)
+- [OcScrollArea 滚动区域](/components/basic/OcScrollArea.md)
+- [OcSearchBar 搜索栏](/components/basic/OcSearchBar.md)
+- [OcSelect 选择器](/components/basic/OcSelect.md)
+- [OcSlider 滑块](/components/basic/OcSlider.md)
+- [OcSwitch 开关](/components/basic/OcSwitch.md)
+- [OcTabs 标签页](/components/basic/OcTabs.md)
+- [OcTag 标签](/components/basic/OcTag.md)
+- [OcTable 表格](/components/basic/OcTable.md)
+- [OcTextarea 文本域](/components/basic/OcTextarea.md)
+- [OcToast 轻提示](/components/basic/OcToast.md)
+- [OcTooltip 文字提示](/components/basic/OcTooltip.md)
+- [OcTrend 趋势标识](/components/basic/OcTrend.md)
+
+#### 专业版
+
+- [OcAnimatedBeam 动画光束](/components/pro/OcAnimatedBeam.md)
+- [OcAnimatedCountTo 数字动画](/components/pro/OcAnimatedCountTo.md)
+- [OcAnimatedCountToGroup 数字动画组](/components/pro/OcAnimatedCountToGroup.md)
+- [OcBlurReveal 模糊显现](/components/pro/OcBlurReveal.md)
+- [OcBorderBeam 边框光束](/components/pro/OcBorderBeam.md)
+- [OcCalendarDate 日期日历](/components/pro/OcCalendarDate.md)
+- [OcCalendarDateRange 日期范围日历](/components/pro/OcCalendarDateRange.md)
+- [OcCalendarMonth 月份日历](/components/pro/OcCalendarMonth.md)
+- [OcCalendarMonthRange 月份范围日历](/components/pro/OcCalendarMonthRange.md)
+- [OcCalendarYear 年份日历](/components/pro/OcCalendarYear.md)
+- [OcCalendarYearRange 年份范围日历](/components/pro/OcCalendarYearRange.md)
+- [OcDate 日期](/components/pro/OcDate.md)
+- [OcCarousel 轮播图](/components/pro/OcCarousel.md)
+- [OcCascader 级联选择器](/components/pro/OcCascader.md)
+- [OcCode 代码块](/components/pro/OcCode.md)
+- [OcCodePreview 代码预览](/components/pro/OcCodePreview.md)
+- [OcCombobox 组合框](/components/pro/OcCombobox.md)
+- [OcCountTo 数字滚动](/components/pro/OcCountTo.md)
+- [OcDigitalCard 数字卡片](/components/pro/OcDigitalCard.md)
+- [OcEmpty 空状态](/components/pro/OcEmpty.md)
+- [OcFlipCard 翻转卡片](/components/pro/OcFlipCard.md)
+- [OcFlipWords 翻转文字](/components/pro/OcFlipWords.md)
+- [OcGlowyCard 发光卡片](/components/pro/OcGlowyCard.md)
+- [OcGlowyCardWrapper 发光卡片容器](/components/pro/OcGlowyCardWrapper.md)
+- [OcGradientButton 渐变按钮](/components/pro/OcGradientButton.md)
+- [OcIconPicker 图标选择器](/components/pro/OcIconPicker.md)
+- [OcInteractiveButton 交互按钮](/components/pro/OcInteractiveButton.md)
+- [OcLayoutContainer 布局容器](/components/pro/OcLayoutContainer.md)
+- [OcLinkPreview 链接预览](/components/pro/OcLinkPreview.md)
+- [OcLoading 加载动画](/components/pro/OcLoading.md)
+- [OcMarquee 滚动横幅](/components/pro/OcMarquee.md)
+- [OcMention 提及](/components/pro/OcMention.md)
+- [OcMultiStepLoader 多步骤加载器](/components/pro/OcMultiStepLoader.md)
+- [OcParticlesBg 粒子背景](/components/pro/OcParticlesBg.md)
+- [OcPatternBg 图案背景](/components/pro/OcPatternBg.md)
+- [OcQrcode 二维码](/components/pro/OcQrcode.md)
+- [OcScratchOff 刮刮乐](/components/pro/OcScratchOff.md)
+- [OcScrollingText 滚动文字](/components/pro/OcScrollingText.md)
+- [OcSmoothSwipe 平滑滑动](/components/pro/OcSmoothSwipe.md)
+- [OcSparklesText 闪耀文字](/components/pro/OcSparklesText.md)
+- [OcSparkline 迷你图](/components/pro/OcSparkline.md)
+- [OcSpotlightCard 聚光灯卡片](/components/pro/OcSpotlightCard.md)
+- [OcSteps 步骤条](/components/pro/OcSteps.md)
+- [OcStorageBox 储物箱](/components/pro/OcStorageBox.md)
+- [OcTextHighlight 文字高亮](/components/pro/OcTextHighlight.md)
+- [OcTextShiny 流光文字](/components/pro/OcTextShiny.md)
+- [OcTimeAgo 相对时间](/components/pro/OcTimeAgo.md)
+- [OcTimeline 时间轴](/components/pro/OcTimeline.md)
+- [OcTree 树形控件](/components/pro/OcTree.md)
+
+### Other
+
+- [618 大促优惠](/buy-anniversary.md)
+- [技术支持](/support.md)
+- [购买永久专业版](/buy.md)

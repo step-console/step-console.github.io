@@ -1,0 +1,1 @@
+import{_ as e,o as a,i as r,aZ as s}from"./chunks/framework.D08fXB_e.js";const c=JSON.parse('{"title":"技术支持","description":"","frontmatter":{},"headers":[],"relativePath":"support.md","filePath":"support.md"}'),o={name:"support.md"};function i(n,t,p,d,l,u){return a(),r("div",null,[...t[0]||(t[0]=[s("",4)])])}const h=e(o,[["render",i]]);export{c as __pageData,h as default};
